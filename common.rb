@@ -37,7 +37,6 @@ def find_files(x,y) # source_root as x, file name match pattern as y
   cmd = "find #{x} -type f -iname \"#{y}\""
   run_local(cmd)
 end
-#!/usr/bin/env ruby
 
 # rendering functions
 
